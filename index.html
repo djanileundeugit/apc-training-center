@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APC Training Center — Une compétence, un emploi</title>
+<meta name="description" content="APC Training Center, centre de formation professionnelle à Douala et Yaoundé (Cameroun). Comptabilité, fiscalité, RH, finance, développement web et anglais professionnel. Une compétence, un emploi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#FB6A10">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header" id="top">
+  <div class="container nav">
+    <a href="#top" class="logo" aria-label="APC Training Center"><img src="img/logo.png" alt="APC Training Center — Une compétence, un emploi" width="150" height="96"></a>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="#apropos">À propos</a>
+      <a href="#formations">Formations</a>
+      <a href="#methode">Notre méthode</a>
+      <a href="#actualites">Actualités</a>
+      <a href="#elearning">E-learning</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-gold btn-sm">S'inscrire</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">Douala · Yaoundé — Cameroun</span>
+      <h1>Une <span class="hl">compétence</span>,<br>un <span class="hl">emploi</span>.</h1>
+      <p class="lead">Pour décrocher un premier emploi comme pour progresser dans votre poste actuel.</p>
+      <p>Centre de formation professionnelle fondé sur la <strong>pratique rigoureuse</strong> et la <strong>culture africaine</strong>, pour former des professionnels compétents et conscients de leur contexte socio-économique.</p>
+      <div class="cta">
+        <a href="#formations" class="btn btn-gold">Découvrir les formations</a>
+        <a href="#contact" class="btn btn-ghost">Nous contacter</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img class="hero-photo" src="img/salle1.jpg" alt="Apprenants en salle de formation à Yaoundé" width="700" height="525">
+      <div class="stats">
+        <div class="stat"><b data-count="6">0</b><span>filières</span></div>
+        <div class="stat"><b data-count="2">0</b><span>villes</span></div>
+        <div class="stat"><b data-count="2020">0</b><span>création</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A PROPOS -->
+<section class="section" id="apropos">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">À propos</p>
+      <h2>Former des professionnels prêts à travailler</h2>
+      <p>APC Training Center est une institution de formation technique et professionnelle créée en 2020. Notre approche privilégie le terrain : chaque apprenant acquiert des gestes métiers concrets, directement exploitables en entreprise.</p>
+      <p>Notre devise, <em>« une compétence, un emploi »</em>, guide chacun de nos programmes : de la comptabilité informatisée à la gestion des ressources humaines, du développement d'applications à l'anglais professionnel.</p>
+    </div>
+    <div>
+    <img class="about-photo" src="img/salle2.jpg" alt="Formateur animant une session à Yaoundé" loading="lazy" width="525" height="700">
+    <ul class="values">
+      <li><span class="ico">🎯</span><div><h3>Pratique rigoureuse</h3><p>Des ateliers et cas réels plutôt que de la théorie seule.</p></div></li>
+      <li><span class="ico">🌍</span><div><h3>Culture africaine</h3><p>Des formations ancrées dans les réalités économiques locales.</p></div></li>
+      <li><span class="ico">💼</span><div><h3>Insertion professionnelle</h3><p>Un accompagnement vers l'emploi et l'entrepreneuriat.</p></div></li>
+    </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FORMATIONS -->
+<section class="section alt" id="formations">
+  <div class="container">
+    <p class="eyebrow">Nos filières</p>
+    <h2>Des formations pour chaque ambition</h2>
+    <div class="filters" role="tablist">
+      <button class="chip active" data-filter="all">Toutes</button>
+      <button class="chip" data-filter="gestion">Gestion &amp; Finance</button>
+      <button class="chip" data-filter="digital">Digital &amp; IT</button>
+      <button class="chip" data-filter="langues">Langues</button>
+    </div>
+    <div class="grid" id="courses"></div>
+  </div>
+</section>
+
+<!-- ACTUALITES -->
+<section class="section alt" id="actualites">
+  <div class="container">
+    <p class="eyebrow">Actualités</p>
+    <h2>Les temps forts d'APC Training Center</h2>
+    <div id="news"></div>
+  </div>
+</section>
+
+<!-- METHODE -->
+<section class="section" id="methode">
+  <div class="container">
+    <p class="eyebrow">Notre méthode</p>
+    <h2>Un parcours simple, orienté résultat</h2>
+    <ol class="steps">
+      <li><b>1</b><h3>Orientation</h3><p>Nous évaluons votre profil et vos objectifs pour choisir la bonne filière.</p></li>
+      <li><b>2</b><h3>Formation pratique</h3><p>Apprentissage par la pratique, encadré par des professionnels.</p></li>
+      <li><b>3</b><h3>Mise en situation</h3><p>Projets et stages pour valider vos acquis en conditions réelles.</p></li>
+      <li><b>4</b><h3>Insertion</h3><p>Accompagnement vers l'emploi, le recrutement ou la création d'activité.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ELEARNING -->
+<section class="elearning" id="elearning">
+  <div class="container el-grid">
+    <div>
+      <span class="badge badge-dark">Bientôt disponible</span>
+      <h2>La plateforme E-learning APC</h2>
+      <p>Suivez nos cours à distance, à votre rythme : vidéos, supports téléchargeables, quiz et attestations. Laissez-nous votre email pour être prévenu(e) dès l'ouverture.</p>
+    </div>
+    <form class="notify" id="notifyForm">
+      <input type="email" name="email" placeholder="Votre adresse email" required aria-label="Email">
+      <button class="btn btn-gold" type="submit">Me prévenir</button>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">Contact</p>
+      <h2>Parlons de votre projet de formation</h2>
+      <ul class="contact-list">
+        <li><b>📍 Sites</b><span>Douala (Littoral) · Yaoundé (Centre), Cameroun</span></li>
+        <li><b>📞 Téléphone</b><span><a href="tel:+237699018365">+237 699 018 365</a> / <a href="tel:+237692148610">692 148 610</a></span></li>
+        <li><b>✉️ Email</b><span><a href="mailto:cabinetapcsarl@gmail.com">cabinetapcsarl@gmail.com</a></span></li>
+        <li><b>🌐 Web</b><span><a href="https://www.cabinetapc.com" target="_blank" rel="noopener">www.cabinetapc.com</a></span></li>
+      </ul>
+      <div class="socials">
+        <a class="btn btn-outline btn-sm" href="https://www.facebook.com/lecentreAPCTraining" target="_blank" rel="noopener">Facebook</a>
+        <a class="btn btn-outline btn-sm" href="https://www.linkedin.com/company/apc-training-center/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-outline btn-sm" href="https://wa.me/237699018365" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <form class="form" id="contactForm">
+      <label>Nom complet<input name="nom" required></label>
+      <label>Téléphone<input name="tel" type="tel" required></label>
+      <label>Formation souhaitée<select name="formation" id="formationSelect"></select></label>
+      <label>Message<textarea name="msg" rows="4"></textarea></label>
+      <button class="btn btn-green" type="submit">Envoyer par email</button>
+      <small>Le message s'ouvrira dans votre application email.</small>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <div class="foot-brand"><img src="img/logo.png" alt="APC Training Center" width="120" height="77"></div>
+    <small>© <span id="year"></span> APC Training Center. Tous droits réservés.</small>
+  </div>
+</footer>
+
+<script src="js/news.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
